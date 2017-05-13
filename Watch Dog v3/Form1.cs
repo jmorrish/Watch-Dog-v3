@@ -558,6 +558,7 @@ namespace Watch_Dog_v3
 
             if (e.NewValue == CheckState.Checked && checkedListBox2.CheckedItems.Count > 0)
             {
+                asdasdasdasd
                 checkedListBox2.ItemCheck -= checkedListBox2_ItemCheck;
                 checkedListBox2.SetItemChecked(checkedListBox2.CheckedIndices[0], false);
                 checkedListBox2.ItemCheck += checkedListBox2_ItemCheck;
